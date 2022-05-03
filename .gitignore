@@ -1,0 +1,7 @@
+node_modules
+backend/src/public/images/pets/*.png
+backend/src/public/images/pets/*.jpg
+backend/src/public/images/users/*.png
+backend/src/public/images/users/*.jpg
+backend/node_modules
+frontend/node_modules
