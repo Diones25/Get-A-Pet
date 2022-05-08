@@ -42,12 +42,24 @@ function App() {
               <Profile />
             </Route>
 
+            <Route path="/pet/add">
+              <AddPet />
+            </Route>
+
+            <Route path="/pet/edit/:id">
+              <EditPet />
+            </Route>
+
             <Route path="/pet/mypets">
               <MyPets />
             </Route>
 
-            <Route path="/pet/add">
-              <AddPet />
+            <Route path="/pet/myadoptions">
+              <MyAdoptions />
+            </Route>
+                        
+            <Route path="/pet/:id">
+              <PetDetails />
             </Route>
 
             <Route path="/">
