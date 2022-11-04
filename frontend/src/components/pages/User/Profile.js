@@ -5,7 +5,6 @@ import formStyles from '../../form/Form.module.css';
 import Input from '../../form/Input';
 import useFlashMessage from '../../../hooks/useFlashMessage';
 import RoundedImage from '../../layout/RoundedImage';
-import userEvent from '@testing-library/user-event';
 
 function Profile() {
 
